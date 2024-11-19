@@ -1,0 +1,11 @@
+This is the description to the icu_admissions.csv.gz file. This file is located in outputs/icu_admissions.csv.gz.
+subject_id: A unique identifier for each patient in the dataset. Each patient only has one subject_id.
+hadm_id: Hospital admission ID, a unique identifier for each hospital admission. This ID enables differentiation between multiple admissions for the same patient.
+admittime: Timestamp for the exact date and time when the patient was admitted to the hospital. This helps establish the start of a hospital stay.
+dischtime: Timestamp for the date and time when the patient was discharged from the hospital, marking the end of a specific admission period.
+admission_type: Categorical field indicating the type of admission, such as "emergency," "urgent," or "elective." This provides context on the reason or urgency of admission.
+admission_location: Describes the location from which the patient was admitted, such as "clinic referral," "emergency department," or "transfer from another facility."
+discharge_location: Indicates the location to which the patient was discharged, such as "home," "skilled nursing facility," or "hospice care," which informs about the level of care needed after discharge.
+insurance: Specifies the type of insurance coverage the patient used for the hospital stay, such as "medicare," "medicaid," "private," or "self-pay."
+marital_status: Categorical variable indicating the patient's marital status, such as "single," "married," "divorced," or "widowed.". All characters in this column are in lowercase.
+race: Categorical field specifying the patient's racial or ethnic background, often used in healthcare research to understand health disparities and outcomes across different populations. All characters in this column are in lowercase.

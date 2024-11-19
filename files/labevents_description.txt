@@ -1,0 +1,12 @@
+This is the description to the icu_labevents_blood.csv.gz file. This file is located in outputs/icu_labevents_blood.csv.gz.
+subject_id: A unique identifier assigned to each patient in the dataset. It is used to track and distinguish individual patients across multiple encounters or tests.
+hadm_id: The unique identifier for a hospital admission. It associates each patient's data with a specific hospital stay, allowing for tracking of multiple admissions for the same patient.
+itemid: A unique identifier for the specific lab test that was recorded for the patient. This ID helps to categorize and access specific types of tests or clinical observations.
+charttime: The timestamp when the test or observation was recorded in the medical chart. It provides the time context for the medical data, which is essential for analyzing trends over time.
+valuenum: The numerical value of the recorded test result or measurement. This field holds the quantitative data corresponding to the itemid (e.g., lab test result, vital sign).
+valueuom: The unit of measurement for the valuenum. This could include units such as mg/dL, mmol/L, %, etc., depending on the test result (e.g., the unit for glucose might be mg/dL).
+ref_range_lower: The lower bound of the reference range for the test or measurement. It represents the minimum value considered normal for the corresponding test.
+ref_range_upper: The upper bound of the reference range for the test or measurement. It indicates the maximum value considered normal for the corresponding test.
+label: The name or description of the test or measurement, often representing the type of clinical observation (e.g., "glucose", "heart rate"). This column provides context to the itemid. All characters are in lowercase.
+fluid: This may refer to the type of body fluid from which the sample was taken, such as blood, urine, or cerebrospinal fluid (CSF), or it could refer to the specific volume of the fluid if relevant to the measurement.
+category: A higher-level classification or grouping for the medical tests. Categories can include lab tests, vital signs, medications, etc. This column is useful for organizing data by type of clinical measurement or procedure.

@@ -1,0 +1,9 @@
+This is the description to the icu_inputevents.csv.gz file. This file is located in outputs/icu_inputevents.csv.gz.
+subject_id: A unique identifier for each patient. Every patient has a distinct subject_id to differentiate between individuals.
+hadm_id: A unique identifier for each hospital admission. Each hospital visit generates a new hadm_id to distinguish between different admissions for the same patient.
+stay_id: In MIMIC-IV, this is a unique identifier for each ICU stay. Every ICU visit has a unique stay_id to differentiate multiple ICU stays for the same patient during a single admission or across multiple admissions.
+starttime: The start time of the input event. This records the exact time (to the minute or second) when an input, like an infusion or medication, was administered.
+itemid: A unique identifier for the item or medication. Each itemid corresponds to a specific type of input, such as a particular medication, solution, or medical supply.
+label: The name or label of the item or medication. This provides a human-readable description of the itemid, often the name of the medication or type of fluid administered. All characters are lowercase.
+amount: The quantity of the input item. This represents the dose or volume of the administered item and varies depending on the type of input (e.g., milliliters or milligrams). 
+amountuom: The unit of measurement for the quantity (amount). This indicates the measurement unit for amount, such as milliliters (mL) or milligrams (mg), and helps clarify the dosage or volume.

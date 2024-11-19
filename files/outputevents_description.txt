@@ -1,0 +1,9 @@
+This is the description to the icu_outputevents.csv.gz file. This file is located in outputs/icu_outputevents.csv.gz.
+subject_id: A unique identifier for each patient. This ID is specific to each patient to distinguish them from others in the dataset.
+hadm_id: A unique identifier for each hospital admission. Each hospital stay has its own hadm_id, allowing for the separation of different hospitalizations for the same patient.
+stay_id: In MIMIC-IV, this represents a unique identifier for each ICU stay. Each ICU stay has a distinct stay_id, enabling differentiation between multiple ICU visits for the same patient within or across admissions.
+charttime: The recorded time for the output event. This timestamp marks when the output was measured or recorded, often down to the minute or second.
+itemid: A unique identifier for the output item. Each itemid code corresponds to a specific type of output, such as urine or drainage.
+label: A human-readable name or label for the output item. This provides a descriptive label for itemid, such as “urine output” or “blood loss.”. All characters are in lowercase.
+value: The measured amount of the output item. This records the quantity or volume of the output, such as the amount of urine excreted or fluid drained.
+valueuom: The unit of measurement for the output amount (value). This specifies the unit, such as milliliters (mL), to clarify the recorded quantity.

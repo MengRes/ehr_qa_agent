@@ -1,0 +1,8 @@
+icu_patients.csv.gz contains information about patients admitted to the ICU. This file is located in the outputs folder. Here’s an explanation of each column in the icu_patients.csv.gz table:
+subject_id: A unique identifier for each patient across the database. Each patient only has one subject_id, even if they are admitted multiple times to the ICU.
+hadm_id: A unique identifier for each hospital admission for a patient. If a patient is admitted multiple times, each stay will have a distinct hadm_id.
+gender: The recorded gender of the patient, generally marked as 'm' for male or 'f' for female.
+age: The age of the patient at the time of admission. 
+year: the year of the patient’s admission.
+dod: Date of death. This field is recorded if known and provides the date on which the patient passed away, in a de-identified format to protect privacy.
+dob: Date of birth. This field, while de-identified, gives insight into the patient’s age range and demographics without revealing the actual birthdate.

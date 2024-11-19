@@ -1,0 +1,6 @@
+This is the description to the icu_diagnoses.csv.gz file. This file is located in outputs/icu_diagnoses.csv.gz.
+subject_id: This unique identifier corresponds to each patient in the dataset. It allows for the association of patient-level data across different tables. Each patient only has one subject_id.
+hadm_id: This is the unique hospital admission ID. One patient can have multiple hospital admissions, corresponding to multiple hadm_ids.
+icd_code: This column contains the ICD (International Classification of Diseases) code, which is a standardized code used to identify specific diagnoses. This can be used to understand the medical conditions diagnosed during a patient’s hospital admission.
+icd_version: Indicates the version of the ICD coding system used (for example, ICD-9 or ICD-10). Different versions have slightly different codes, so this helps interpret the icd_code accurately.
+long_title: This is a descriptive label or title associated with each ICD code. It provides a full text description of the diagnosis, helping users to interpret what the ICD code represents in more detail.

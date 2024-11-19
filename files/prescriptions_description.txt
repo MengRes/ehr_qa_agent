@@ -1,0 +1,9 @@
+This is the description to the icu_prescriptions.csv.gz file. This file is located in outputs/icu_prescriptions.csv.gz.
+subject_id: A unique identifier for each patient. This ID differentiates each patient in the database.
+hadm_id: A unique identifier for each hospital admission. Each admission is associated with a unique hadm_id, distinguishing multiple admissions for the same patient.
+starttime: The time when the prescription was started. This timestamp records when the medication administration began, often down to the minute.
+stoptime: The time when the prescription was stopped. This indicates the end time for the medication administration.
+drug: The name of the prescribed medication. This provides a human-readable name for the drug that was administered to the patient. All characters are in lowercase.
+dose_val_rx: The prescribed dosage value. This represents the amount of medication to be administered per dose.
+dose_unit_rx: The unit of measurement for the dosage. This specifies the unit for dose_val_rx, such as milligrams (mg) or milliliters (ml). All characters are in lowercase.
+route: The route of administration for the medication. This describes how the medication was administered, such as orally, intravenously (iv), or intramuscularly (im). All characters are in lowercase.

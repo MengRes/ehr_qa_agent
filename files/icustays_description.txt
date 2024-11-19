@@ -1,0 +1,8 @@
+This is the description to the icu_icustays.csv.gz file. This file is located in outputs/icu_icustays.csv.gz.
+subject_id: This is the unique identifier for each patient in the dataset, allowing tracking of patient-level data across different hospital stays and tables.
+hadm_id: The unique identifier for each hospital admission, which is specific to a single hospital stay. This ID links data for a patient's entire admission period.
+stay_id: A unique identifier for each ICU stay. Since patients can have multiple ICU stays within a single hospital admission, this ID is used to distinguish between them.
+first_careunit: This specifies the name of the first care unit where the patient was admitted during this ICU stay. Care units refer to different specialized sections in the ICU (such as Medical ICU, Surgical ICU, etc.).
+last_careunit: This indicates the name of the last care unit where the patient stayed before discharge from the ICU.
+intime: The date and time the patient was admitted to the ICU for this specific stay, marking the start of their ICU stay. The time is in the format of YYYY-MM-DD HH:MM:SS.
+outtime: The date and time the patient was discharged from the ICU, marking the end of the ICU stay. The time is in the format of YYYY-MM-DD HH:MM:SS.

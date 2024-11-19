@@ -1,0 +1,7 @@
+This is the description to the icu_microbiologyevents.csv.gz file. This file is located in outputs/icu_microbiologyevents.csv.gz.
+subject_id: A unique identifier for each patient. This ID is specific to each patient and distinguishes them within the database.
+hadm_id: A unique identifier for each hospital admission. Each hospital stay is associated with its own hadm_id, differentiating multiple admissions for the same patient.
+charttime: The recorded time for the microbiology event. This timestamp reflects when the microbiology sample was collected or logged.
+spec_type_desc: A description of the specimen type. This provides information on the type of specimen collected for testing, such as “blood,” “urine,” or “sputum.”. All characters are in lowercase.
+test_name: The name of the microbiology test. This specifies the type of test conducted on the specimen, such as a “culture” or “gram stain.”. All characters are in lowercase.
+org_name: The name of the organism identified (if any). This column lists the organism detected in the test, such as “escherichia coli” or “staphylococcus aureus.”. All characters are in lowercase.

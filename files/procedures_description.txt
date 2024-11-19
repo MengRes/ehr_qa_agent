@@ -1,0 +1,6 @@
+This is the description to the icu_procedures.csv.gz file. This file is located in outputs/icu_procedures.csv.gz.
+subject_id: A unique identifier for each patient. This ID is specific to each patient, distinguishing them within the dataset.
+hadm_id: A unique identifier for each hospital admission. Each admission has its own hadm_id, allowing for separation of different admissions for the same patient.
+icd_code: The ICD (International Classification of Diseases) code for the procedure. This code represents the specific procedure performed on the patient.
+icd_version: The version of the ICD coding system used. This indicates which version of the ICD codes (e.g., ICD-9 or ICD-10) was applied to classify the procedure.
+long_title: A descriptive title for the ICD code. This provides a human-readable description of the procedure, such as “appendectomy” or “coronary artery bypass.”. All characters are in lowercase.

@@ -1,0 +1,9 @@
+This is the description to the icu_chartevents.csv.gz file. This file is located in outputs/icu_chartevents.csv.gz.
+subject_id: A unique identifier for each patient. This ID is specific to each patient and helps differentiate individuals in the database.
+hadm_id: A unique identifier for each hospital admission. Each hospital stay has a distinct hadm_id, allowing separation of different admissions for the same patient.
+stay_id: In MIMIC-IV, this represents a unique identifier for each ICU stay. Each ICU visit generates a unique stay_id to differentiate multiple ICU stays for the same patient within or across admissions.
+charttime: The time when the chart event was recorded. This timestamp indicates when the specific measurement or observation was taken, typically down to the minute.
+itemid: A unique identifier for the charted item. This code represents a specific type of measurement or observation, such as heart rate, blood pressure, or temperature.
+label: A descriptive name or label for the charted item. This provides a human-readable description of the itemid, such as “heart rate” or “systolic blood pressure.”. All characters are in lowercase.
+value: The recorded value for the charted item. This indicates the numerical or categorical result of the observation, such as a specific heart rate (e.g., 75) or a lab result.
+valueuom: The unit of measurement for the recorded value (value). This specifies the unit in which the value is measured, such as beats per minute (bpm), mmHg, or °C.

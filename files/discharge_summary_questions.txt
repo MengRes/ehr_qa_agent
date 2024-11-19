@@ -1,0 +1,179 @@
+What are the allergies of the patient?
+What allergies does the patient have?
+What is the patient allergic to?
+Can you list the patient’s allergies?
+What substances is the patient sensitive to?
+Does the patient have any known allergies?
+What are the known allergens for the patient?
+What allergic reactions has the patient experienced?
+Are there any allergies that the patient is aware of?
+What items trigger allergic responses in the patient?
+Can you specify the patient’s allergic sensitivities?
+
+What is the patient's chief complaint?
+What is the main concern of the patient?
+What issue is the patient primarily experiencing?
+What brought the patient in today?
+What is the primary reason for the patient's visit?
+What seems to be the patient's main problem?
+What condition is the patient most worried about?
+What is the patient's biggest concern?
+What is the key symptom the patient is presenting with?
+What troubles the patient the most?
+What specific issue is the patient complaining about?
+
+What is the major surgical or invasive procedure according to the discharge summary?
+What is the primary surgical or invasive procedure listed in the discharge summary?
+What major procedure is noted in the discharge summary?
+Which surgical or invasive procedure is highlighted in the discharge summary?
+What procedure is identified as major in the discharge summary?
+What was the key surgical or invasive intervention in the discharge summary?
+According to the discharge summary, what was the primary procedure performed?
+What significant surgery or procedure is recorded in the discharge summary?
+What does the discharge summary indicate as the major procedure?
+What surgical or invasive procedure is documented in the discharge summary?
+What was the main intervention described in the discharge summary?
+
+Describe the illness history according to the discharge summary.
+How is the illness history detailed in the discharge summary?
+Can you summarize the illness history as outlined in the discharge summary?
+What is the illness history based on the discharge summary?
+What details about the illness history are provided in the discharge summary?
+How does the discharge summary describe the patient's illness history?
+What is the narrative of the illness history in the discharge summary?
+How is the course of the illness documented in the discharge summary?
+According to the discharge summary, how did the illness progress?
+What does the discharge summary say about the patient’s illness history?
+How is the patient's medical history of illness presented in the discharge summary?
+
+What is the medical history of the patient?
+Can you provide the patient's medical history?
+What past medical conditions does the patient have?
+What does the patient's medical history include?
+What illnesses or conditions has the patient experienced in the past?
+What is the patient’s history of medical issues?
+Can you outline the patient's medical background?
+What are the patient's previous medical diagnoses?
+What health conditions has the patient dealt with before?
+What does the patient's medical record show about their past health?
+What is known about the patient’s prior medical history?
+
+What is the family history of the patient?
+Can you provide the patient's family history?
+What health conditions run in the patient's family?
+What is known about the patient’s family medical background?
+What does the patient's family history reveal about their health risks?
+What hereditary conditions are present in the patient’s family?
+What diseases or conditions are common in the patient's family?
+What family medical issues does the patient have a history of?
+Can you describe the patient’s family health history?
+What illnesses are documented in the patient's family history?
+What genetic or familial conditions does the patient’s family have?
+
+Describe the hospital course briefly.
+Can you give a brief summary of the hospital course?
+What was the hospital course in brief?
+How can the hospital course be summarized briefly?
+Provide a short description of the hospital course.
+Can you outline the hospital course briefly?
+What is a concise version of the hospital course?
+How would you summarize the hospital course in a few words?
+Can you briefly explain the patient’s hospital course?
+What does the hospital course entail in short?
+Summarize the hospital course in a few sentences.
+
+What medication on admission is given to the patient?
+What medication was the patient given upon admission?
+Which medications were administered to the patient at admission?
+What drugs were prescribed to the patient during admission?
+What treatment was provided to the patient upon their admission?
+What medication is listed for the patient on admission?
+What medications did the patient receive when they were admitted?
+What is the medication regimen for the patient on admission?
+Which drugs were given to the patient at the time of admission?
+What medication was started for the patient at admission?
+What medications were prescribed to the patient on admission?
+
+What medication on discharge is given to the patient?
+What medication is the patient prescribed upon discharge?
+Which medications are provided to the patient at discharge?
+What drugs will the patient take when discharged?
+What treatment is given to the patient upon leaving the hospital?
+What medications are listed for the patient at discharge?
+What medications will the patient continue after discharge?
+What is the discharge medication regimen for the patient?
+Which medications are included in the patient's discharge plan?
+What medication is the patient instructed to take upon discharge?
+What medications were prescribed to the patient at the time of discharge?
+
+What is the discharge disposition of the patient?
+How is the patient's discharge disposition defined?
+What is the patient's disposition upon discharge?
+Where will the patient go after discharge?
+What are the details of the patient's discharge plan?
+What is the patient's post-discharge arrangement?
+What is the outcome of the patient's discharge?
+How has the patient been classified upon discharge?
+What does the discharge summary indicate about the patient’s disposition?
+What will happen to the patient after they are discharged?
+What arrangements have been made for the patient at discharge?
+
+List the discharge diagnosis of the patient.
+What is the patient's discharge diagnosis?
+Can you provide the discharge diagnoses for the patient?
+What diagnoses are recorded for the patient at discharge?
+What are the final diagnoses given to the patient upon discharge?
+How is the patient's discharge diagnosis detailed?
+What diagnoses did the patient receive at the time of discharge?
+Can you outline the discharge diagnoses for the patient?
+What medical conditions are listed as the discharge diagnoses?
+What diagnoses were established for the patient before discharge?
+What is included in the patient's discharge diagnosis?
+
+What is the discharge condition of the patient?
+How is the patient's condition upon discharge?
+What is the patient's status at the time of discharge?
+What condition does the patient have when leaving the hospital?
+Can you describe the patient’s condition at discharge?
+What is the discharge health status of the patient?
+How does the patient fare at the time of discharge?
+What is the state of the patient upon discharge?
+What are the patient's health findings at discharge?
+What condition is the patient in when they are discharged?
+How would you characterize the patient's condition at the time of discharge?
+
+What follow-up care was recommended after discharge?
+What follow-up care does the patient need after discharge?
+Can you outline the recommended follow-up care for the patient?
+What post-discharge care was suggested for the patient?
+What follow-up appointments were advised after discharge?
+What care instructions were provided for the patient after leaving the hospital?
+What is the follow-up care plan for the patient post-discharge?
+How should the patient proceed with follow-up care after discharge?
+What recommendations were made for the patient’s follow-up care?
+What follow-up measures are to be taken after the patient is discharged?
+What care should the patient seek following their discharge?
+
+What are the discharge instructions for the patient?
+Can you provide the discharge instructions for the patient?
+What instructions were given to the patient upon discharge?
+What are the guidelines for the patient after discharge?
+What does the patient need to know before leaving the hospital?
+What are the specific instructions for the patient at discharge?
+What information was provided to the patient regarding discharge?
+What post-discharge instructions were given to the patient?
+What directions should the patient follow after being discharged?
+What are the key discharge instructions for the patient?
+What care instructions were outlined for the patient upon discharge?
+
+List the medication name and dosage on discharge of the patient. Each medication has one row.
+Can you provide the name and dosage of each medication given at discharge?
+What medications and their dosages were prescribed to the patient upon discharge?
+Please list the names and dosages of the medications for the patient at discharge.
+What are the names and dosages of the discharge medications for the patient?
+Can you specify the medication names and dosages the patient received at discharge?
+What medications were prescribed at discharge, along with their dosages?
+Please outline the medications and their respective dosages for the patient upon discharge.
+What are the names and dosages of the medications listed for the patient at discharge?
+Can you detail the medication names and dosages given to the patient upon discharge?
+What is the list of medications with their dosages prescribed to the patient at the time of discharge?
