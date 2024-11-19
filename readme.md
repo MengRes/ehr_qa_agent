@@ -10,4 +10,7 @@ This repository contains the project code for the MIMIC-IV Question Answering (Q
 
 ### Generate the QA pairs from EHR tables
 
-To generate the QA pairs from EHR tables, we need to select the relevant tables and columns.
+To generate the QA pairs from EHR tables, we need to select the relevant tables and columns. 
+
+1. `admissions.csv`: this table includes the admission information of patients. We selected `subject_id`, `hadm_id`, `admittime`, `dischtime`, `admission_type`, `admission_location`, `discharge_location`, `insurance`, `marital_status`, and `race` columns.
+2. `patients.csv`: this table includes the demographic information of patients. We selected `subject_id`, `hadm_id`, `gender`, `age`, `year`, `dod`, and `dob` columns.
