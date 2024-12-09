@@ -1,0 +1,1 @@
+Please generate python code to answer the question. Only generate code for the question. no explanation and other description. use print to putput the result. the final result variable should be named as result.

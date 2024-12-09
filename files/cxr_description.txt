@@ -1,22 +1,8 @@
 This is the description to the icu_cxr.csv.gz file. This file is located in outputs/icu_cxr.csv.gz.
 subject_id: Unique identifier for each patient in the dataset.
+hadm_id: Unique identifier for each hospital admission associated with a specific patient.
 study_id: Unique identifier for each radiological study (exam), such as a chest X-ray, associated with a specific patient.
-Atelectasis: Label indicating whether atelectasis (partial or complete lung collapse) is present in the study.
-Cardiomegaly: Label indicating whether cardiomegaly (enlarged heart) is observed in the study.
-Consolidation: Label indicating whether lung consolidation (accumulation of fluid in the lung tissues) is present.
-Edema: Label indicating the presence of edema (fluid accumulation in the lungs).
-Enlarged Cardiomediastinum: Label indicating whether the mediastinum (central part of the chest cavity) is enlarged.
-Fracture: Label indicating whether any fractures are observed.
-Lung Lesion: Label indicating the presence of any lesions in the lung.
-Lung Opacity: Label indicating any opacity (cloudiness) detected in the lung area.
-No Finding: Label indicating that no abnormalities were found in the study.
-Pleural Effusion: Label indicating the presence of pleural effusion (fluid buildup between the tissues lining the lungs and chest).
-Pleural Other: Label indicating other findings related to the pleura (the lining around the lungs) that don’t fall into standard categories.
-Pneumonia: Label indicating whether pneumonia (infection of the lung) is present.
-Pneumothorax: Label indicating the presence of pneumothorax (air in the chest cavity that causes lung collapse).
-Support Devices: Label indicating whether any support devices, like catheters or pacemakers, are visible in the image.
 ViewPosition: The positioning of the patient when the image was taken (e.g., PA for posterior-anterior, or AP for anterior-posterior).
-StudyDate: The date when the radiological study was performed.
 StudyTime: The time when the radiological study was performed.
 path: Path to the image file for the chest X-ray in the dataset.
-report_path: Path to the radiology report associated with the chest X-ray.
+report_path: Path to the radiology report associated with the chest X-ray. Diagnoses and findings are included in the report.

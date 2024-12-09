@@ -1,0 +1,73 @@
+This is the description for MIMIC-IV selcted tables. Read the following information that couls be helpful for answering the questions.
+
+icu_admissions.csv.gz. This file is located in outputs/icu_admissions.csv.gz.
+This file contains admission information for patients. It includes these columns:
+hadm_id: Hospital admission ID, a unique identifier for each hospital admission. This ID enables differentiation between multiple admissions for the same patient.
+admittime: Timestamp for the exact date and time when the patient was admitted to the hospital. This helps establish the start of a hospital stay.
+dischtime: Timestamp for the date and time when the patient was discharged from the hospital, marking the end of a specific admission period.
+admission_type: Categorical field indicating the type of admission, such as "emergency," "urgent," or "elective." This provides context on the reason or urgency of admission.
+admission_location: Describes the location from which the patient was admitted, such as "clinic referral," "emergency department," or "transfer from another facility."
+discharge_location: Indicates the location to which the patient was discharged, such as "home," "skilled nursing facility," or "hospice care," which informs about the level of care needed after discharge.
+insurance: Specifies the type of insurance coverage the patient used for the hospital stay, such as "medicare," "medicaid," "private," or "self-pay."
+marital_status: Categorical variable indicating the patient's marital status, such as "single," "married," "divorced," or "widowed.". All characters in this column are in lowercase.
+race: Categorical field specifying the patient's racial or ethnic background, often used in healthcare research to understand health disparities and outcomes across different populations. All characters in this column are in lowercase.
+
+icu_patients.csv.gz. This file is located in outputs/icu_patients.csv.gz.
+This file contains demographic information for patients. It includes these columns:
+subject_id: A unique identifier for each patient across the database. Each patient only has one subject_id, even if they are admitted multiple times to the ICU.
+hadm_id: A unique identifier for each hospital admission for a patient. If a patient is admitted multiple times, each stay will have a distinct hadm_id.
+gender: The recorded gender of the patient, generally marked as 'm' for male or 'f' for female.
+age: The age of the patient at the time of admission. 
+year: the year of the patient’s admission.
+dod: Date of death. This field is recorded if known and provides the date on which the patient passed away, in a de-identified format to protect privacy.
+dob: Date of birth. This field, while de-identified, gives insight into the patient’s age range and demographics without revealing the actual birthdate.
+
+icu_diagnoses.csv.gz. This file is located in outputs/icu_diagnoses.csv.gz.
+This file contains diagnoses information for patients. It includes these columns:
+subject_id: This unique identifier corresponds to each patient in the dataset. It allows for the association of patient-level data across different tables. Each patient only has one subject_id.
+hadm_id: This is the unique hospital admission ID. One patient can have multiple hospital admissions, corresponding to multiple hadm_ids.
+icd_code: This column contains the ICD (International Classification of Diseases) code, which is a standardized code used to identify specific diagnoses. This can be used to understand the medical conditions diagnosed during a patient’s hospital admission.
+icd_version: Indicates the version of the ICD coding system used (for example, ICD-9 or ICD-10). Different versions have slightly different codes, so this helps interpret the icd_code accurately.
+long_title: This is a descriptive label or title associated with each ICD code. It provides a full text description of the diagnosis, helping users to interpret what the ICD code represents in more detail.
+
+icu_labevents.csv.gz. This file is located in outputs/icu_labevents.csv.gz.
+This file contains lab results for blood tests performed on patients. It includes these columns:
+subject_id: A unique identifier assigned to each patient in the dataset. It is used to track and distinguish individual patients across multiple encounters or tests.
+hadm_id: The unique identifier for a hospital admission. It associates each patient's data with a specific hospital stay, allowing for tracking of multiple admissions for the same patient.
+itemid: A unique identifier for the specific lab test that was recorded for the patient. This ID helps to categorize and access specific types of tests or clinical observations.
+charttime: The timestamp when the test or observation was recorded in the medical chart. It provides the time context for the medical data, which is essential for analyzing trends over time.
+valuenum: The numerical value of the recorded test result or measurement. This field holds the quantitative data corresponding to the itemid (e.g., lab test result, vital sign).
+valueuom: The unit of measurement for the valuenum. This could include units such as mg/dL, mmol/L, %, etc., depending on the test result (e.g., the unit for glucose might be mg/dL).
+ref_range_lower: The lower bound of the reference range for the test or measurement. It represents the minimum value considered normal for the corresponding test.
+ref_range_upper: The upper bound of the reference range for the test or measurement. It indicates the maximum value considered normal for the corresponding test.
+label: The name or description of the test or measurement, often representing the type of clinical observation (e.g., "glucose", "heart rate"). This column provides context to the itemid. All characters are in lowercase.
+fluid: This may refer to the type of body fluid from which the sample was taken, such as blood, urine, or cerebrospinal fluid (CSF), or it could refer to the specific volume of the fluid if relevant to the measurement.
+category: A higher-level classification or grouping for the medical tests. Categories can include lab tests, vital signs, medications, etc. This column is useful for organizing data by type of clinical measurement or procedure.
+
+icu_microbiologyevents.csv.gz. This file is located in outputs/icu_microbiologyevents.csv.gz.
+This file contains information on microbiology tests performed on patients. It includes these columns:
+subject_id: A unique identifier for each patient. This ID is specific to each patient and distinguishes them within the database.
+hadm_id: A unique identifier for each hospital admission. Each hospital stay is associated with its own hadm_id, differentiating multiple admissions for the same patient.
+charttime: The recorded time for the microbiology event. This timestamp reflects when the microbiology sample was collected or logged.
+spec_type_desc: A description of the specimen type. This provides information on the type of specimen collected for testing, such as “blood,” “urine,” or “sputum.”. All characters are in lowercase.
+test_name: The name of the microbiology test. This specifies the type of test conducted on the specimen, such as a “culture” or “gram stain.”. All characters are in lowercase.
+org_name: The name of the organism identified (if any). This column lists the organism detected in the test, such as “escherichia coli” or “staphylococcus aureus.”. All characters are in lowercase.
+
+icu_prescriptions.csv.gz. This file is located in outputs/icu_prescriptions.csv.gz.
+This file contains information on medications prescribed to patients. It includes these columns:
+subject_id: A unique identifier for each patient. This ID differentiates each patient in the database.
+hadm_id: A unique identifier for each hospital admission. Each admission is associated with a unique hadm_id, distinguishing multiple admissions for the same patient.
+starttime: The time when the prescription was started. This timestamp records when the medication administration began, often down to the minute.
+stoptime: The time when the prescription was stopped. This indicates the end time for the medication administration.
+drug: The name of the prescribed medication. This provides a human-readable name for the drug that was administered to the patient. All characters are in lowercase.
+dose_val_rx: The prescribed dosage value. This represents the amount of medication to be administered per dose.
+dose_unit_rx: The unit of measurement for the dosage. This specifies the unit for dose_val_rx, such as milligrams (mg) or milliliters (ml). All characters are in lowercase.
+route: The route of administration for the medication. This describes how the medication was administered, such as orally, intravenously (iv), or intramuscularly (im). All characters are in lowercase.
+
+icu_procedures.csv.gz. This file is located in outputs/icu_procedures.csv.gz.
+This file contains information on procedures performed on patients. It includes these columns:
+subject_id: A unique identifier for each patient. This ID is specific to each patient, distinguishing them within the dataset.
+hadm_id: A unique identifier for each hospital admission. Each admission has its own hadm_id, allowing for separation of different admissions for the same patient.
+icd_code: The ICD (International Classification of Diseases) code for the procedure. This code represents the specific procedure performed on the patient.
+icd_version: The version of the ICD coding system used. This indicates which version of the ICD codes (e.g., ICD-9 or ICD-10) was applied to classify the procedure.
+long_title: A descriptive title for the ICD code. This provides a human-readable description of the procedure, such as “appendectomy” or “coronary artery bypass.”. All characters are in lowercase.
